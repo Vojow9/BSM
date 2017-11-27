@@ -16,7 +16,21 @@
             android:layout_width="match_parent"
             android:layout_height="196dp"
             android:ems="10"
+            android:hint="Wpisz hasło"
             android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            app:srcCompat="@drawable/ic_fingerprint_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+             />
 
         <Button
             android:id="@+id/button"
